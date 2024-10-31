@@ -9,7 +9,11 @@ app.get('/greetings',(request, response) =>{
 
 ///list of friends
 
-let friends = ["Mama","Danny","Hassan","Husein","Daddy"];
+let friends = [{"id": 1,"name":"Mama"},
+    {"id":1,"name":"Danny"},
+    {"id":1,"name":"Hassan"},
+    {"id":1,"name":"Husein"},
+    {"id":1,"name":"Daddy"}];
 app.get('/list-of-friends', (request,response) =>{
     return response.send(friends)
 
