@@ -6,6 +6,9 @@ const getfriends1 = ()=>{
         (err, results) =>{
             if (err){
                 return "ERROR CONNECTING TO DB!"
+            }else{
+                console.log("Results from DB", results);
+                return results;
             }
         }
 
