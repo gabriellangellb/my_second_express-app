@@ -3,7 +3,12 @@ const db = require('../model/db_connections')
 const getfriends1 = ()=>{
     db.
     query('select * from students',
-        
+        (err, results) =>{
+            if (err){
+                return "ERROR CONNECTING TO DB!"
+            }
+        }
+
     )
     return myDb.friends1;
 }
