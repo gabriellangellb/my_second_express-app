@@ -1,4 +1,5 @@
 const myDb = require("../model/my_db");
+const db = require('../model/db_connections')
 const getfriends1 = ()=>{
     return myDb.friends1;
 }
