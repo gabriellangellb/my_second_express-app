@@ -15,4 +15,6 @@ const getfriends1ByID =(request) =>{
 };
 module.exports = {getfriends1,getfriends1ByID}
 
+const getfriends1 = () =>{}
+
 
